@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+ color: aqua;
+}
+
+a.active_class{
+    color: #ffffff;
+    border-bottom: 1px solid red;
+}
+
+.menu_style{
+    width: 100%;
+    line-height: 60px;
+    background-color: #20232a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchbar{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar input{
+    margin: 30px 0 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: source-code-pro,Menlo,Monaco,Consolas;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 245, 101);
+    color: rgb(249, 111, 111);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 73, 250);
+    color: rgb(248, 128, 222);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.services p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 52, 52);
+    color: rgb(88, 252, 241);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
